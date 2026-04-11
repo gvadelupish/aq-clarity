@@ -60,16 +60,6 @@ const Index = () => (
             Strategic, results-driven coaching for founders, executives, and changemakers. Elevate your leadership with clarity, confidence, and emotional intelligence. Unlock new perspectives that accelerate your growth.
           </p>
         </FadeUp>
-        <FadeUp delay={0.3}>
-          <a
-            href="https://aqcoachcom.as.me/discovery"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block mt-10 bg-gold text-primary-foreground uppercase tracking-widest text-xs font-body font-medium px-10 py-4 hover:bg-gold-hover transition-colors"
-          >
-            Book discovery call
-          </a>
-        </FadeUp>
       </div>
     </section>
 
@@ -111,6 +101,14 @@ const Index = () => (
             Need a thinking partner who's been there? You're in the right place. Coaching helps you build the clarity to make smart decisions, the emotional intelligence to lead people, and the adaptability to grow with your business. It brings you to the next level. Faster.
           </p>
           <p className="mt-8 text-foreground font-display text-xl">Here's how we can work together.</p>
+          <a
+            href="https://aqcoachcom.as.me/discovery"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-10 bg-gold text-primary-foreground uppercase tracking-widest text-xs font-body font-medium px-10 py-4 hover:bg-gold-hover transition-colors"
+          >
+            Book discovery call
+          </a>
         </FadeUp>
       </div>
     </section>
