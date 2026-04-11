@@ -63,7 +63,6 @@ const Index = () => (
       </div>
     </section>
 
-    <div className="section-divider" />
 
     {/* Intro */}
     <section className="section-padding">
@@ -87,7 +86,6 @@ const Index = () => (
       </div>
     </section>
 
-    <div className="section-divider" />
 
     {/* Feeling stuck */}
     <section className="section-padding">
@@ -113,7 +111,6 @@ const Index = () => (
       </div>
     </section>
 
-    <div className="section-divider" />
 
     {/* Services */}
     <section className="section-padding">
@@ -143,7 +140,6 @@ const Index = () => (
       </div>
     </section>
 
-    <div className="section-divider" />
 
     {/* Testimonials */}
     <section className="section-padding">
@@ -166,7 +162,6 @@ const Index = () => (
       </div>
     </section>
 
-    <div className="section-divider" />
 
     {/* Certification Badges */}
     <section className="section-padding">
@@ -182,7 +177,6 @@ const Index = () => (
       </div>
     </section>
 
-    <div className="section-divider" />
 
     {/* CTA */}
     <section className="section-padding text-center">
