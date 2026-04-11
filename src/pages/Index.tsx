@@ -1,5 +1,5 @@
 import FadeUp from "@/components/FadeUp";
-import mariaPortrait from "@/assets/maria-portrait.jpg";
+import mariaBw from "@/assets/maria-bw.webp";
 import serviceIndividuals from "@/assets/service-individuals.jpg";
 import serviceOrganisations from "@/assets/service-organisations.jpg";
 import serviceEntrepreneurs from "@/assets/service-entrepreneurs.jpg";
@@ -86,7 +86,7 @@ const Index = () => (
         </FadeUp>
         <FadeUp delay={0.15}>
           <img
-            src={mariaPortrait}
+            src={mariaBw}
             alt="Maria Belitskaya, Executive Coach, in black and white portrait wearing pinstripe blazer"
             className="w-full object-cover aspect-[3/4]"
           />
