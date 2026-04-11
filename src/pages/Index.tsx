@@ -6,6 +6,9 @@ import serviceEntrepreneurs from "@/assets/service-entrepreneurs.jpg";
 import serviceExpats from "@/assets/service-expats.jpg";
 import serviceEq from "@/assets/service-eq.jpg";
 import serviceStrategy from "@/assets/service-strategy.jpg";
+import badgeIcf from "@/assets/badge-icf-acc.webp";
+import badgeCec from "@/assets/badge-cec.webp";
+import badgeEqi from "@/assets/badge-eqi.png";
 import { Helmet } from "react-helmet-async";
 
 const services = [
@@ -162,6 +165,22 @@ const Index = () => (
             </FadeUp>
           ))}
         </div>
+      </div>
+    </section>
+
+    <div className="section-divider" />
+
+    {/* Certification Badges */}
+    <section className="section-padding">
+      <div className="container-narrow">
+        <FadeUp>
+          <h3 className="text-center text-warm-grey text-sm uppercase tracking-widest mb-12">Certified by</h3>
+          <div className="flex items-center justify-center gap-12 md:gap-20 flex-wrap">
+            <img src={badgeIcf} alt="ICF Associate Certified Coach badge" loading="lazy" className="h-16 md:h-20 object-contain opacity-80 hover:opacity-100 transition-opacity" />
+            <img src={badgeCec} alt="Center for Executive Coaching seal" loading="lazy" className="h-16 md:h-20 object-contain opacity-80 hover:opacity-100 transition-opacity" />
+            <img src={badgeEqi} alt="EQ-i 2.0 Certified badge" loading="lazy" className="h-16 md:h-20 object-contain opacity-80 hover:opacity-100 transition-opacity" />
+          </div>
+        </FadeUp>
       </div>
     </section>
 
