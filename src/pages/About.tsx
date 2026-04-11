@@ -1,8 +1,10 @@
 import FadeUp from "@/components/FadeUp";
 import mariaColor from "@/assets/maria-color.webp";
-import badgeIcf from "@/assets/badge-icf-acc.webp";
-import badgeCec from "@/assets/badge-cec.webp";
-import badgeEqi from "@/assets/badge-eqi.png";
+import certIcf from "@/assets/cert-icf.webp";
+import certCec from "@/assets/cert-cec.webp";
+import certEqi from "@/assets/cert-eqi.png";
+import logoViatris from "@/assets/logo-viatris.png";
+import logoCareerminds from "@/assets/logo-careerminds.png";
 import { Helmet } from "react-helmet-async";
 
 const About = () => (
@@ -51,31 +53,30 @@ const About = () => (
 
         <div className="section-divider my-20" />
 
+        {/* Certificates */}
         <FadeUp>
           <h2 className="font-display text-center mb-12">Certifications</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 items-center justify-items-center">
-            <div className="bg-surface border border-surface-border p-8 flex flex-col items-center gap-4 w-full">
-              <img src={badgeIcf} alt="ICF Associate Certified Coach badge" loading="lazy" className="h-20 object-contain" />
-              <p className="text-foreground font-display text-lg">ICF ACC</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-surface border border-surface-border overflow-hidden">
+              <img src={certIcf} alt="ICF Associate Certified Coach certificate for Maria Belitskaya" loading="lazy" className="w-full object-cover" />
             </div>
-            <div className="bg-surface border border-surface-border p-8 flex flex-col items-center gap-4 w-full">
-              <img src={badgeCec} alt="Center for Executive Coaching seal" loading="lazy" className="h-20 object-contain" />
-              <p className="text-foreground font-display text-lg">CEC</p>
+            <div className="bg-surface border border-surface-border overflow-hidden">
+              <img src={certCec} alt="Center for Executive Coaching certificate for Maria Belitskaya" loading="lazy" className="w-full object-cover" />
             </div>
-            <div className="bg-surface border border-surface-border p-8 flex flex-col items-center gap-4 w-full">
-              <img src={badgeEqi} alt="EQ-i 2.0 Certified badge" loading="lazy" className="h-20 object-contain" />
-              <p className="text-foreground font-display text-lg">EQ-i 2.0</p>
+            <div className="bg-surface border border-surface-border overflow-hidden">
+              <img src={certEqi} alt="EQ-i 2.0 and EQ 360 Certification for Maria Belitskaya" loading="lazy" className="w-full object-cover" />
             </div>
           </div>
         </FadeUp>
 
         <div className="section-divider my-20" />
 
+        {/* Trusted by */}
         <FadeUp>
-          <h3 className="text-center text-warm-grey text-sm uppercase tracking-widest mb-8">Trusted by</h3>
-          <div className="flex items-center justify-center gap-16 opacity-50">
-            <span className="font-body text-xl tracking-wider text-warm-grey">Viatris</span>
-            <span className="font-body text-xl tracking-wider text-warm-grey">CareerMinds</span>
+          <h3 className="text-center text-warm-grey text-sm uppercase tracking-widest mb-10">Trusted by</h3>
+          <div className="flex items-center justify-center gap-16 flex-wrap">
+            <img src={logoViatris} alt="Viatris logo" loading="lazy" className="h-10 object-contain brightness-0 invert opacity-50 hover:opacity-80 transition-opacity" />
+            <img src={logoCareerminds} alt="Careerminds logo" loading="lazy" className="h-10 object-contain brightness-0 invert opacity-50 hover:opacity-80 transition-opacity" />
           </div>
         </FadeUp>
       </div>
