@@ -100,7 +100,7 @@ const Index = () => (
           <p className="mt-4 text-warm-grey leading-relaxed">
             Need a thinking partner who's been there? You're in the right place. Coaching helps you build the clarity to make smart decisions, the emotional intelligence to lead people, and the adaptability to grow with your business. It brings you to the next level. Faster.
           </p>
-          <p className="mt-8 text-foreground font-display text-xl">Here's how we can work together.</p>
+          
           <a
             href="https://aqcoachcom.as.me/discovery"
             target="_blank"
