@@ -1,5 +1,8 @@
 import FadeUp from "@/components/FadeUp";
 import mariaColor from "@/assets/maria-color.webp";
+import badgeIcf from "@/assets/badge-icf-acc.webp";
+import badgeCec from "@/assets/badge-cec.webp";
+import badgeEqi from "@/assets/badge-eqi.png";
 import { Helmet } from "react-helmet-async";
 
 const About = () => (
@@ -50,12 +53,19 @@ const About = () => (
 
         <FadeUp>
           <h2 className="font-display text-center mb-12">Certifications</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
-            {["ICF ACC Certified Coach", "Center for Executive Coaching (CEC)", "EQ-i 2.0 Certified"].map((cert) => (
-              <div key={cert} className="bg-surface border border-surface-border p-8">
-                <p className="text-foreground font-display text-lg">{cert}</p>
-              </div>
-            ))}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 items-center justify-items-center">
+            <div className="bg-surface border border-surface-border p-8 flex flex-col items-center gap-4 w-full">
+              <img src={badgeIcf} alt="ICF Associate Certified Coach badge" loading="lazy" className="h-20 object-contain" />
+              <p className="text-foreground font-display text-lg">ICF ACC</p>
+            </div>
+            <div className="bg-surface border border-surface-border p-8 flex flex-col items-center gap-4 w-full">
+              <img src={badgeCec} alt="Center for Executive Coaching seal" loading="lazy" className="h-20 object-contain" />
+              <p className="text-foreground font-display text-lg">CEC</p>
+            </div>
+            <div className="bg-surface border border-surface-border p-8 flex flex-col items-center gap-4 w-full">
+              <img src={badgeEqi} alt="EQ-i 2.0 Certified badge" loading="lazy" className="h-20 object-contain" />
+              <p className="text-foreground font-display text-lg">EQ-i 2.0</p>
+            </div>
           </div>
         </FadeUp>
 
