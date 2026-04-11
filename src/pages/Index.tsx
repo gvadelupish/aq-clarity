@@ -1,5 +1,5 @@
 import FadeUp from "@/components/FadeUp";
-import mariaPortrait from "@/assets/maria-portrait.jpg";
+import mariaBw from "@/assets/maria-bw.webp";
 import serviceIndividuals from "@/assets/service-individuals.jpg";
 import serviceOrganisations from "@/assets/service-organisations.jpg";
 import serviceEntrepreneurs from "@/assets/service-entrepreneurs.jpg";

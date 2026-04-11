@@ -1,5 +1,5 @@
 import FadeUp from "@/components/FadeUp";
-import mariaPortrait from "@/assets/maria-portrait.jpg";
+import mariaColor from "@/assets/maria-color.webp";
 import { Helmet } from "react-helmet-async";
 
 const About = () => (
