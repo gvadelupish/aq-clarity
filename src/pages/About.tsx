@@ -1,5 +1,8 @@
 import FadeUp from "@/components/FadeUp";
 import mariaColor from "@/assets/maria-color.webp";
+import badgeIcf from "@/assets/badge-icf-acc.webp";
+import badgeCec from "@/assets/badge-cec.webp";
+import badgeEqi from "@/assets/badge-eqi.png";
 import { Helmet } from "react-helmet-async";
 
 const About = () => (
