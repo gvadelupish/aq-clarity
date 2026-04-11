@@ -3,6 +3,7 @@ import mariaColor from "@/assets/maria-color.webp";
 import certIcf from "@/assets/cert-icf.webp";
 import certCec from "@/assets/cert-cec.webp";
 import certEqi from "@/assets/cert-eqi.png";
+import certLeading from "@/assets/cert-leading-groups.png";
 import logoViatris from "@/assets/logo-viatris.png";
 import logoCareerminds from "@/assets/logo-careerminds.png";
 import { Helmet } from "react-helmet-async";
@@ -56,7 +57,7 @@ const About = () => (
         {/* Certificates */}
         <FadeUp>
           <h2 className="font-display text-center mb-12">Certifications</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             <div className="bg-surface border border-surface-border overflow-hidden">
               <img src={certIcf} alt="ICF Associate Certified Coach certificate for Maria Belitskaya" loading="lazy" className="w-full object-cover" />
             </div>
@@ -65,6 +66,9 @@ const About = () => (
             </div>
             <div className="bg-surface border border-surface-border overflow-hidden">
               <img src={certEqi} alt="EQ-i 2.0 and EQ 360 Certification for Maria Belitskaya" loading="lazy" className="w-full object-cover" />
+            </div>
+            <div className="bg-surface border border-surface-border overflow-hidden">
+              <img src={certLeading} alt="Mischief Makers Leading Groups Facilitation certificate for Maria Belitskaya" loading="lazy" className="w-full object-cover" />
             </div>
           </div>
         </FadeUp>
