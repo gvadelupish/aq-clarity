@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
+import aqLogo from "@/assets/aq-logo-white.webp";
 
 const Footer = () => (
   <footer className="section-divider">
     <div className="container-narrow section-padding">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
         <div>
-          <span className="font-display text-2xl tracking-wider text-foreground">AQ</span>
+          <Link to="/">
+            <img src={aqLogo} alt="AQ Coaching logo" className="h-8" />
+          </Link>
           <p className="mt-4 text-warm-grey text-sm">Executive Coaching</p>
           <p className="mt-1 text-warm-grey text-sm">Barcelona, Spain</p>
           <a href="mailto:contact@aqcoach.com" className="mt-1 block text-warm-grey text-sm hover:text-foreground transition-colors">

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import aqLogo from "@/assets/aq-logo-white.webp";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,8 +15,8 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 h-[72px] bg-background/80 backdrop-blur-md border-b border-surface-border">
       <nav className="container-narrow h-full flex items-center justify-between">
-        <Link to="/" className="font-display text-2xl tracking-wider text-foreground">
-          AQ
+        <Link to="/" className="flex items-center">
+          <img src={aqLogo} alt="AQ Coaching logo" className="h-8" />
         </Link>
 
         {/* Desktop */}
