@@ -86,7 +86,7 @@ const Index = () => (
         </FadeUp>
         <FadeUp delay={0.15}>
           <img
-            src={mariaPortrait}
+            src={mariaBw}
             alt="Maria Belitskaya, Executive Coach, in black and white portrait wearing pinstripe blazer"
             className="w-full object-cover aspect-[3/4]"
           />

@@ -30,10 +30,8 @@ const About = () => (
         </FadeUp>
 
         <FadeUp delay={0.1}>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-16">
-            <img src={mariaPortrait} alt="Maria Belitskaya portrait" className="w-full aspect-[3/4] object-cover" />
-            <img src={mariaPortrait} alt="Maria Belitskaya coaching session" className="w-full aspect-[3/4] object-cover object-top" style={{ filter: "brightness(0.9)" }} />
-            <img src={mariaPortrait} alt="Maria Belitskaya speaking" className="w-full aspect-[3/4] object-cover" style={{ filter: "contrast(1.1)" }} />
+          <div className="max-w-md mx-auto mb-16">
+            <img src={mariaColor} alt="Maria Belitskaya portrait" className="w-full aspect-[3/4] object-cover" />
           </div>
         </FadeUp>
 
