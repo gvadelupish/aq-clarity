@@ -3,6 +3,7 @@ import mariaColor from "@/assets/maria-color.webp";
 import certIcf from "@/assets/cert-icf.webp";
 import certCec from "@/assets/cert-cec.webp";
 import certEqi from "@/assets/cert-eqi.png";
+import certLeading from "@/assets/cert-leading-groups.png";
 import logoViatris from "@/assets/logo-viatris.png";
 import logoCareerminds from "@/assets/logo-careerminds.png";
 import { Helmet } from "react-helmet-async";
