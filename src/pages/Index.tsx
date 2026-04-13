@@ -12,12 +12,11 @@ import badgeEqi from "@/assets/badge-eqi.png";
 import { Helmet } from "react-helmet-async";
 
 const services = [
-  { title: "For Individuals", image: serviceIndividuals, desc: "Career and life coaching for professionals who feel stuck at work. Gain career clarity and vision, build confidence, and create a personalized action plan for career change or growth." },
-  { title: "For Organisations", image: serviceOrganisations, desc: "Leadership coaching for modern businesses. Support your managers, team leads, and executives with coaching that develops emotional intelligence, resilience, and self-awareness." },
-  { title: "For Entrepreneurs", image: serviceEntrepreneurs, desc: "Strategic business coaching for founders, CEOs, and startup leaders navigating growth, uncertainty, and leadership challenges. Scale your business with confidence." },
-  { title: "For Expats", image: serviceExpats, desc: "Expat and cross-cultural coaching for professionals building life and career abroad. Gain support, adaptability, and stress-management strategies." },
-  { title: "For Emotional Intelligence", image: serviceEq, desc: "Science-based coaching using the EQ-i 2.0 and EQ 360 assessments. Gain self-awareness, improve communication, and build resilience." },
-  { title: "For Fast Strategic Insight", image: serviceStrategy, desc: "Strategic coaching sessions for those who need clarity — fast. Powerful, high-impact 2-hour sessions designed to go deep and move forward." },
+  { title: "Executive & Leadership Coaching", image: serviceOrganisations, desc: "1:1 coaching, leadership programmes, and team coaching for organisations developing modern leaders and building future-focused company culture. Supports high-stakes communication, difficult conversations, stakeholder management, decision-making under pressure, and leading across cross-cultural environments. EQ-i 2.0 used where relevant." },
+  { title: "Career & Personal Coaching", image: serviceIndividuals, desc: "Coaching for individuals at a career crossroads or experiencing lack of clarity, misalignment, or burnout. Clarify priorities, identify obstacles, and turn insight into a clear direction with concrete next steps. Typically structured over 10 sessions across 6–8 months." },
+  { title: "Mentoring", image: serviceEntrepreneurs, desc: "Direct, experience-based input based on 19 years of leadership with Levi's, The North Face, Quiksilver, Nike, and New Era. Focus on managing creative teams, building brands, growing a creative business, and navigating a career in the creative industry." },
+  { title: "Strategy Session", image: serviceStrategy, desc: "A focused 2-hour working session to address one specific challenge or define direction. For companies: annual alignment workshops. For individuals: stepping back to structure thinking across personal or professional directions. You leave with clarity and a concrete action plan." },
+  { title: "EQ-i 2.0 / EQ 360", image: serviceEq, desc: "Psychometric assessment measuring 15 emotional intelligence competencies: stress management, decision-making, communication, and relationships. Includes detailed report and debrief to interpret results in your context. Gain clarity on strengths and zones of growth." },
 ];
 
 const testimonials = [
