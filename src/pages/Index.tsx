@@ -20,9 +20,9 @@ const services = [
 ];
 
 const testimonials = [
-  { quote: "I came to coaching feeling lost about my next steps, especially in the face of job uncertainty. Through our sessions, I began to see my career not as my identity, but as a choice I have agency over. It's still a journey, but I now feel more confident in shaping a path that aligns with my values.", name: "Lauren", title: "Market Research Expert, Oil & Commodities" },
+  { quote: "The EQ-i debrief helped me see certain things in a new light and gave me insights on my communication and leadership style. Coaching with Maria really helped me with both strategic thinking on organisational change and operational business challenges, but most importantly gave me a space to learn about myself and reflect.", name: "Ignacio", title: "General Manager, Pharmaceutical" },
+  { quote: "I'm glad I chose Maria for my Leadership Development Program. She helped me gain confidence, work on my communication style across cultures and stakeholder management. Now when I have a complex situation, I think: 'What would Maria ask me?'", name: "Mei Lin", title: "Executive Director, Consumer Insights" },
   { quote: "Transitioning from a regional to a global role brought a unique set of challenges, especially in understanding and navigating interpersonal dynamics across different cultures. Maria supported me through these complexities. Her coaching not only helped me to fine-tune my interpersonal skills but also boosted my confidence and gave me a clear framework for planning and achieving my goals.", name: "Alice", title: "Global Digital Marketing, FMCG" },
-  { quote: "I want to send my special gratitude to Maria. It was truly eye-opening and helped me to see things from a new perspective.", name: "Jason", title: "Product Manager IT & Music Producer" },
   { quote: "Thank you so much for helping me reframe my priorities. While answering some of your questions, I caught myself thinking in new ways and exploring unfamiliar approaches. You helped shift my focus away from typical overachievement and toward actually choosing myself.", name: "Kate", title: "Marketing Director Fashion & Beauty, Influencer" },
 ];
 
