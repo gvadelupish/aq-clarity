@@ -59,7 +59,7 @@ const PrivacyPolicy = () => (
             <p>This Privacy Policy may be updated periodically. Updates will be posted here with a new effective date. We encourage you to review it regularly.</p>
 
             <h2>Contact</h2>
-            <p>Maria Belitskaya/> Barcelona, Spain<br />Email: <a href="mailto:contact@aqcoach.com" className="text-gold hover:text-gold-hover transition-colors">contact@aqcoach.com</a></p>
+            <p>Maria Belitskaya<br /><br />Email: <a href="mailto:contact@aqcoach.com" className="text-gold hover:text-gold-hover transition-colors">contact@aqcoach.com</a></p>
           </div>
         </FadeUp>
       </div>
