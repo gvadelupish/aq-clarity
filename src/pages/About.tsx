@@ -62,17 +62,17 @@ const About = () => (
         <FadeUp>
           <h2 className="font-display text-center mb-12">Certifications</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="bg-surface border border-surface-border overflow-hidden">
-              <img src={certIcf} alt="ICF Associate Certified Coach certificate for Maria Belitskaya" loading="lazy" className="w-full object-cover" />
+            <div className="bg-surface border border-surface-border h-56 flex items-center justify-center p-4">
+              <img src={certIcf} alt="ICF Associate Certified Coach certificate for Maria Belitskaya" loading="lazy" className="max-h-full max-w-full object-contain" />
             </div>
-            <div className="bg-surface border border-surface-border overflow-hidden">
-              <img src={certCec} alt="Center for Executive Coaching certificate for Maria Belitskaya" loading="lazy" className="w-full object-cover" />
+            <div className="bg-surface border border-surface-border h-56 flex items-center justify-center p-4">
+              <img src={certCec} alt="Center for Executive Coaching certificate for Maria Belitskaya" loading="lazy" className="max-h-full max-w-full object-contain" />
             </div>
-            <div className="bg-surface border border-surface-border overflow-hidden">
-              <img src={certEqi} alt="EQ-i 2.0 and EQ 360 Certification for Maria Belitskaya" loading="lazy" className="w-full object-cover" />
+            <div className="bg-surface border border-surface-border h-56 flex items-center justify-center p-4">
+              <img src={certEqi} alt="EQ-i 2.0 and EQ 360 Certification for Maria Belitskaya" loading="lazy" className="max-h-full max-w-full object-contain" />
             </div>
-            <div className="bg-surface border border-surface-border overflow-hidden">
-              <img src={certLeading} alt="Mischief Makers Leading Groups Facilitation certificate for Maria Belitskaya" loading="lazy" className="w-full object-cover" />
+            <div className="bg-surface border border-surface-border h-56 flex items-center justify-center p-4">
+              <img src={certLeading} alt="Mischief Makers Leading Groups Facilitation certificate for Maria Belitskaya" loading="lazy" className="max-h-full max-w-full object-contain" />
             </div>
           </div>
         </FadeUp>
