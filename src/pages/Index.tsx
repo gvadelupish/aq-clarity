@@ -10,6 +10,7 @@ import badgeIcf from "@/assets/badge-icf-acc.webp";
 import badgeCec from "@/assets/badge-cec.webp";
 import badgeEqi from "@/assets/badge-eqi.png";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 const services = [
   { title: "Executive & Leadership Coaching", image: serviceOrganisations, desc: "1:1 coaching, leadership programmes, and team coaching for organisations developing modern leaders and building future-focused company culture. Supports high-stakes communication, difficult conversations, stakeholder management, decision-making under pressure, and leading across cross-cultural environments. EQ-i 2.0 used where relevant." },
