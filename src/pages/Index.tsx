@@ -10,6 +10,7 @@ import badgeIcf from "@/assets/badge-icf-acc.webp";
 import badgeCec from "@/assets/badge-cec.webp";
 import badgeEqi from "@/assets/badge-eqi.png";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 const services = [
   { title: "Executive & Leadership Coaching", image: serviceOrganisations, desc: "1:1 coaching, leadership programmes, and team coaching for organisations developing modern leaders and building future-focused company culture. Supports high-stakes communication, difficult conversations, stakeholder management, decision-making under pressure, and leading across cross-cultural environments. EQ-i 2.0 used where relevant." },
@@ -183,14 +184,12 @@ const Index = () => (
         <FadeUp>
           <h2 className="font-display mb-6">Ready to grow?</h2>
           <p className="text-warm-grey mb-10 max-w-lg mx-auto">Take the first step. Book a complimentary discovery call and let's explore how coaching can help you move forward.</p>
-          <a
-            href="https://aqcoachcom.as.me/discovery"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/book"
             className="inline-block bg-gold text-primary-foreground uppercase tracking-widest text-xs font-body font-medium px-10 py-4 hover:bg-gold-hover transition-colors"
           >
             Book a session
-          </a>
+          </Link>
         </FadeUp>
       </div>
     </section>

@@ -31,17 +31,7 @@ const Book = () => {
           <FadeUp>
             <h1 className="font-display mb-6">Book a <em className="gold-italic">session</em></h1>
             <p className="text-warm-grey mb-10">Get in touch with a short description of your request and we will book a 30 min complimentary discovery call.</p>
-            <a
-              href="https://aqcoachcom.as.me/discovery"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-gold text-primary-foreground uppercase tracking-widest text-xs font-body font-medium px-10 py-4 hover:bg-gold-hover transition-colors"
-            >
-              Book a free discovery call
-            </a>
           </FadeUp>
-
-          <div className="section-divider my-16" />
 
           <FadeUp delay={0.15}>
             {submitted ? (
