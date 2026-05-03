@@ -183,14 +183,12 @@ const Index = () => (
         <FadeUp>
           <h2 className="font-display mb-6">Ready to grow?</h2>
           <p className="text-warm-grey mb-10 max-w-lg mx-auto">Take the first step. Book a complimentary discovery call and let's explore how coaching can help you move forward.</p>
-          <a
-            href="https://aqcoachcom.as.me/discovery"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/book"
             className="inline-block bg-gold text-primary-foreground uppercase tracking-widest text-xs font-body font-medium px-10 py-4 hover:bg-gold-hover transition-colors"
           >
             Book a session
-          </a>
+          </Link>
         </FadeUp>
       </div>
     </section>
