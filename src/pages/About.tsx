@@ -11,9 +11,9 @@ import { Helmet } from "react-helmet-async";
 const About = () => (
   <>
     <Helmet>
-      <title>About Maria Belitskaya â AQ Coaching</title>
+      <title>About Maria Belitskaya — AQ Coaching</title>
       <meta name="description" content="ICF ACC Certified Executive Coach with 20 years of corporate experience at Levi's, The North Face, and Nike. Based in Barcelona, working globally." />
-      <meta property="og:title" content="About Maria Belitskaya â AQ Coaching" />
+      <meta property="og:title" content="About Maria Belitskaya — AQ Coaching" />
       <link rel="canonical" href="https://aqcoach.com/about" />
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",
@@ -47,7 +47,7 @@ const About = () => (
               <p>I work with leaders, entrepreneurs, and expats around the world, helping them strengthen their leadership, soft skills, and emotional intelligence. My clients are ambitious, open to new opportunities and global change, and seeking success, career growth, and balance in life.</p>
               <p>I bring nearly 20 years of international corporate experience in marketing and creative leadership across retail, sports, and fashion. As a Marketing Director at Levi's, I had the opportunity to manage a region of 32 markets and an amazing team of 10 people, which gave me valuable insights. Being part of The North Face Creative team EMEA taught me a lot about cross-regional collaboration between the continents. I worked with brands like Quiksilver, Nike, New Era.</p>
               <p>I lived and worked in 4 countries, so I've personally experienced what it feels like to arrive in a new country, start a new job, and adapt to a new culture.</p>
-              <p>I first experienced the impact of coaching as a client â it helped me grow as a leader and navigate critical transitions with clarity and confidence. Today, I see that same transformation in my clients every day. Coaching empowers them to lead with confidence, grow in their roles, scale their businesses, improve communication, strengthen relationships, and boost team performance.</p>
+              <p>I first experienced the impact of coaching as a client — it helped me grow as a leader and navigate critical transitions with clarity and confidence. Today, I see that same transformation in my clients every day. Coaching empowers them to lead with confidence, grow in their roles, scale their businesses, improve communication, strengthen relationships, and boost team performance.</p>
               <p>I deliver the coaching in English and Russian. Based in Barcelona, working globally.</p>
             </div>
           </FadeUp>
@@ -90,8 +90,8 @@ const About = () => (
         <FadeUp>
           <h3 className="text-center text-warm-grey text-sm uppercase tracking-widest mb-10">Trusted by</h3>
           <div className="flex items-center justify-center gap-16 flex-wrap">
-            <img src={logoViatris} alt="Viatris logo" loading="lazy" className="h-10 object-contain brightness-0 invert opacity-50 hover:opacity-80 transition-opacity">
-            <img src={logoCareerminds} alt="Careerminds logo" loading="lazy" className="h-10 object-contain brightness-0 invert opacity-50 hover:opacity-80 transition-opacity">
+            <img src={logoViatris} alt="Viatris logo" loading="lazy" className="h-10 object-contain brightness-0 invert opacity-50 hover:opacity-80 transition-opacity" />
+            <img src={logoCareerminds} alt="Careerminds logo" loading="lazy" className="h-10 object-contain brightness-0 invert opacity-50 hover:opacity-80 transition-opacity" />
           </div>
         </FadeUp>
       </div>
