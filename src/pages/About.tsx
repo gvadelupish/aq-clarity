@@ -57,7 +57,7 @@ const About = () => (
               <img
                 src={mariaColor}
                 alt="Maria Belitskaya portrait"
-                className="w-full aspect-[3/4] object-cover object-center"
+                className="w-full aspect-[3/4] object-cover object-top"
               />
             </div>
           </FadeUp>
