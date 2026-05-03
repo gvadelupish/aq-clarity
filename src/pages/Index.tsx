@@ -99,14 +99,12 @@ const Index = () => (
             Need a thinking partner who's been there? You're in the right place. Coaching helps you build the clarity to make smart decisions, the emotional intelligence to lead people, and the adaptability to grow with your business. It brings you to the next level. Faster.
           </p>
           
-          <a
-            href="https://aqcoachcom.as.me/discovery"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/book"
             className="inline-block mt-10 bg-gold text-primary-foreground uppercase tracking-widest text-xs font-body font-medium px-10 py-4 hover:bg-gold-hover transition-colors"
           >
             Book discovery call
-          </a>
+          </Link>
         </FadeUp>
       </div>
     </section>
