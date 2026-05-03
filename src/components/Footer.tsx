@@ -4,7 +4,7 @@ import aqLogo from "@/assets/aq-logo-white.webp";
 const Footer = () => (
   <footer className="section-divider">
     <div className="container-narrow section-padding">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div>
           <Link to="/">
             <img src={aqLogo} alt="AQ Coaching logo" className="h-8" />
@@ -23,15 +23,6 @@ const Footer = () => (
             <li><Link to="/about" className="text-sm text-warm-grey hover:text-foreground transition-colors">About me</Link></li>
             <li><Link to="/book" className="text-sm text-warm-grey hover:text-foreground transition-colors">Book a session</Link></li>
             <li><Link to="/privacy-policy" className="text-sm text-warm-grey hover:text-foreground transition-colors">Privacy Policy</Link></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 className="text-sm uppercase tracking-widest text-warm-grey mb-6">Certifications</h4>
-          <ul className="space-y-2 text-sm text-warm-grey">
-            <li>ICF ACC Certified Coach</li>
-            <li>Center for Executive Coaching (CEC)</li>
-            <li>EQ-i 2.0 Certified</li>
           </ul>
         </div>
       </div>
