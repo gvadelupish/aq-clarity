@@ -38,8 +38,8 @@ const About = () => (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <FadeUp delay={0.2}>
             <div className="space-y-6 text-warm-grey leading-relaxed">
-              <p className="text-xl md:text-2xl text-foreground leading-snug">
-                Hi! I'm Maria, an <em className="gold-italic">ICF ACC Certified Executive Coach</em>.
+              <p className="font-display text-foreground leading-tight text-3xl md:text-4xl">
+                Hi! I'm <em className="gold-italic">Maria</em>, an ICF ACC Certified Executive Coach.
               </p>
               <p>I work with leaders, entrepreneurs, and expats around the world, helping them strengthen their leadership, soft skills, and emotional intelligence. My clients are ambitious, open to new opportunities and global change, and seeking success, career growth, and balance in life.</p>
               <p>I bring nearly 20 years of international corporate experience in marketing and creative leadership across retail, sports, and fashion. As a Marketing Director at Levi's, I had the opportunity to manage a region of 32 markets and an amazing team of 10 people, which gave me valuable insights. Being part of The North Face Creative team EMEA taught me a lot about cross-regional collaboration between the continents. I worked with brands like Quiksilver, Nike, New Era.</p>
