@@ -86,30 +86,6 @@ const Index = () => (
       </div>
     </section>
 
-
-    {/* Feeling stuck */}
-    <section className="section-padding">
-      <div className="container-narrow max-w-[700px] mx-auto text-center">
-        <FadeUp>
-          <h2 className="font-display mb-8">Feeling stuck?</h2>
-          <p className="text-warm-grey leading-relaxed">
-            Not sure how to move forward in your career, define the North Star for your business, navigate tough conversations, or manage diverse team dynamics — all while staying productive and balancing life and work?
-          </p>
-          <p className="mt-4 text-warm-grey leading-relaxed">
-            Need a thinking partner who's been there? You're in the right place. Coaching helps you build the clarity to make smart decisions, the emotional intelligence to lead people, and the adaptability to grow with your business. It brings you to the next level. Faster.
-          </p>
-          
-          <Link
-            to="/book"
-            className="inline-block mt-10 bg-gold text-primary-foreground uppercase tracking-widest text-xs font-body font-medium px-10 py-4 hover:bg-gold-hover transition-colors"
-          >
-            Book discovery call
-          </Link>
-        </FadeUp>
-      </div>
-    </section>
-
-
     {/* Services */}
     <section className="section-padding">
       <div className="container-narrow">
@@ -126,10 +102,10 @@ const Index = () => (
                   loading="lazy"
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-[600ms] group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="font-display text-foreground text-xl mb-2">{s.title}</h3>
-                  <p className="text-warm-grey text-sm leading-relaxed">{s.desc}</p>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/75 to-black/20" />
+                <div className="absolute bottom-0 left-0 right-0 p-6 bg-black/55 backdrop-blur-[2px]">
+                  <h3 className="font-display text-white text-xl mb-2">{s.title}</h3>
+                  <p className="text-white/90 text-sm leading-relaxed">{s.desc}</p>
                 </div>
               </div>
             </FadeUp>
@@ -180,7 +156,7 @@ const Index = () => (
     <section className="section-padding text-center">
       <div className="container-narrow">
         <FadeUp>
-          <h2 className="font-display mb-6">Ready to grow?</h2>
+          <h2 className="font-display mb-6">Ready for a change?</h2>
           <p className="text-warm-grey mb-10 max-w-lg mx-auto">Take the first step. Book a complimentary discovery call and let's explore how coaching can help you move forward.</p>
           <Link
             to="/book"
