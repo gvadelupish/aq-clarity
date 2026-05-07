@@ -95,18 +95,17 @@ const Index = () => (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((s, i) => (
             <FadeUp key={s.title} delay={i * 0.1}>
-              <div className="relative aspect-[3/4] overflow-hidden group cursor-default">
-                <img
-                  src={s.image}
-                  alt={s.title}
-                  loading="lazy"
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-[600ms] group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/75 to-black/20" />
-                <div className="absolute bottom-0 left-0 right-0 p-6 bg-black/55 backdrop-blur-[2px]">
-                  <h3 className="font-display text-white text-xl mb-2">{s.title}</h3>
-                  <p className="text-white/90 text-sm leading-relaxed">{s.desc}</p>
+              <div className="group cursor-default">
+                <div className="relative aspect-[4/3] overflow-hidden">
+                  <img
+                    src={s.image}
+                    alt={s.title}
+                    loading="lazy"
+                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-[600ms] group-hover:scale-105"
+                  />
                 </div>
+                <h3 className="font-display text-foreground text-xl mt-5 mb-3">{s.title}</h3>
+                <p className="text-warm-grey text-sm leading-relaxed">{s.desc}</p>
               </div>
             </FadeUp>
           ))}
