@@ -1,6 +1,10 @@
-60px@tailwind base;
-72px@tailwind utilities;
-48px@layer base {
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Outfit:wght@200;300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
   :root {
     --background: 153 67% 12%;
     --foreground: 36 18% 93%;
@@ -100,14 +104,14 @@
   }
 
   .section-padding {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 72px;
+    padding-bottom: 72px;
   }
 
   @media (max-width: 600px) {
     .section-padding {
-      padding-top: 60px;
-      padding-bottom: 60px;
+      padding-top: 48px;
+      padding-bottom: 48px;
     }
   }
 
