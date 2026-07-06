@@ -5,8 +5,18 @@ const PrivacyPolicy = () => (
   <>
     <Helmet>
       <title>Privacy Policy — AQ Coaching</title>
-      <meta name="robots" content="noindex, follow" />
+      <meta name="description" content="How AQ Coaching collects, uses, and protects your personal information under GDPR and applicable data protection laws." />
       <link rel="canonical" href="https://aqcoach.com/privacy-policy" />
+      <meta property="og:title" content="Privacy Policy — AQ Coaching" />
+      <meta property="og:url" content="https://aqcoach.com/privacy-policy" />
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://aqcoach.com/" },
+          { "@type": "ListItem", position: 2, name: "Privacy Policy", item: "https://aqcoach.com/privacy-policy" },
+        ],
+      })}</script>
     </Helmet>
 
     <section className="section-padding">

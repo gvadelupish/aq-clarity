@@ -14,6 +14,7 @@ const About = () => (
       <title>About Maria Belitskaya — AQ Coaching</title>
       <meta name="description" content="ICF ACC Certified Executive Coach with 20 years of corporate experience at Levi's, The North Face, and Nike. Based in Barcelona, working globally." />
       <meta property="og:title" content="About Maria Belitskaya — AQ Coaching" />
+      <meta property="og:url" content="https://aqcoach.com/about" />
       <link rel="canonical" href="https://aqcoach.com/about" />
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",
@@ -25,6 +26,14 @@ const About = () => (
           { "@type": "EducationalOccupationalCredential", credentialCategory: "ICF ACC" },
           { "@type": "EducationalOccupationalCredential", credentialCategory: "Center for Executive Coaching" },
           { "@type": "EducationalOccupationalCredential", credentialCategory: "EQ-i 2.0 Certified" },
+        ],
+      })}</script>
+      <script type="application/ld+json">{JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://aqcoach.com/" },
+          { "@type": "ListItem", position: 2, name: "About", item: "https://aqcoach.com/about" },
         ],
       })}</script>
     </Helmet>

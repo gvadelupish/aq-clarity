@@ -23,7 +23,16 @@ const Book = () => {
         <title>Book a Session — AQ Coaching</title>
         <meta name="description" content="Book a complimentary 30-minute discovery call with Maria Belitskaya, ICF Certified Executive Coach." />
         <meta property="og:title" content="Book a Session — AQ Coaching" />
+        <meta property="og:url" content="https://aqcoach.com/book" />
         <link rel="canonical" href="https://aqcoach.com/book" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://aqcoach.com/" },
+            { "@type": "ListItem", position: 2, name: "Book a Session", item: "https://aqcoach.com/book" },
+          ],
+        })}</script>
       </Helmet>
 
       <section className="section-padding">
