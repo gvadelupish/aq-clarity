@@ -14,7 +14,12 @@ const About = () => (
       <title>About Maria Belitskaya — AQ Coaching</title>
       <meta name="description" content="ICF ACC Certified Executive Coach with 20 years of corporate experience at Levi's, The North Face, and Nike. Based in Barcelona, working globally." />
       <meta property="og:title" content="About Maria Belitskaya — AQ Coaching" />
+      <meta property="og:description" content="ICF ACC Certified Executive Coach with 20 years of corporate experience at Levi's, The North Face, and Nike." />
       <meta property="og:url" content="https://aqcoach.com/about" />
+      <meta property="og:type" content="profile" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="About Maria Belitskaya — AQ Coaching" />
+      <meta name="twitter:description" content="ICF ACC Certified Executive Coach based in Barcelona, working globally." />
       <link rel="canonical" href="https://aqcoach.com/about" />
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",

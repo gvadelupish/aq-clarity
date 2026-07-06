@@ -23,7 +23,12 @@ const Book = () => {
         <title>Book a Session — AQ Coaching</title>
         <meta name="description" content="Book a complimentary 30-minute discovery call with Maria Belitskaya, ICF Certified Executive Coach." />
         <meta property="og:title" content="Book a Session — AQ Coaching" />
+        <meta property="og:description" content="Book a complimentary 30-minute discovery call with Maria Belitskaya, ICF Certified Executive Coach." />
         <meta property="og:url" content="https://aqcoach.com/book" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Book a Session — AQ Coaching" />
+        <meta name="twitter:description" content="Book a complimentary 30-minute discovery call." />
         <link rel="canonical" href="https://aqcoach.com/book" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

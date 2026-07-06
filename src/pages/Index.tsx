@@ -34,8 +34,12 @@ const Index = () => (
       <meta name="description" content="Strategic, results-driven coaching for founders, executives, and changemakers. Elevate your leadership with clarity, confidence, and emotional intelligence." />
       <meta property="og:title" content="AQ Coaching — Executive Coaching for Modern Leaders" />
       <meta property="og:description" content="Strategic coaching for founders, executives, and changemakers." />
-      <meta property="og:url" content="https://aqcoach.com" />
-      <link rel="canonical" href="https://aqcoach.com" />
+      <meta property="og:url" content="https://aqcoach.com/" />
+      <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="AQ Coaching — Executive Coaching for Modern Leaders" />
+      <meta name="twitter:description" content="Strategic coaching for founders, executives, and changemakers." />
+      <link rel="canonical" href="https://aqcoach.com/" />
       <script type="application/ld+json">{JSON.stringify({
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
